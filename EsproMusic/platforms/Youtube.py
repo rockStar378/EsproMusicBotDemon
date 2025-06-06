@@ -21,7 +21,7 @@ import httpx
 
 # ============== CONFIGURE YOUR API ==============
 YOUR_API_URL = "http://128.0.118.34:8000"
-YOUR_API_KEY = "ishq_mein"            # <--- Change me!
+YOUR_API_KEY = "11a62dad322c4a24a63c08c6594cb4ab"            # <--- Change me!
 # ================================================
 
 async def get_file_from_api(video_id, audio=True):
