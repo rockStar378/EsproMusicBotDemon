@@ -3,7 +3,7 @@ import os
 import re
 import json
 from typing import Union
-
+from cookies import *
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
