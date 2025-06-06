@@ -4,7 +4,6 @@ import re
 import json
 from typing import Union
 
-import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
@@ -15,6 +14,11 @@ import os
 import glob
 import random
 import logging
+
+
+from urllib.parse import urlparse, parse_qs
+import httpx
+
 # ============== CONFIGURE YOUR API ==============
 YOUR_API_URL = "http://128.0.118.34:8000"
 YOUR_API_KEY = "ishq_mein"            # <--- Change me!
