@@ -11,9 +11,6 @@ from youtubesearchpython.__future__ import VideosSearch
 
 from EsproMusic.utils.database import is_on_off
 from EsproMusic.utils.formatters import time_to_seconds
-
-
-
 import os
 import glob
 import random
@@ -21,7 +18,7 @@ import logging
 
 # ============== CONFIGURE YOUR API ==============
 YOUR_API_URL = "http://128.0.118.34:8000"
-YOUR_API_KEY = "ishq_mein"            # <--- Change me!
+YOUR_API_KEY = "11a62dad322c4a24a63c08c6594cb4ab"            # <--- Change me!
 # ================================================
 
 async def get_file_from_api(video_id, audio=True):
