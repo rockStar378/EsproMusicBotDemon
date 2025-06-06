@@ -3,21 +3,21 @@ import os
 import re
 import json
 from typing import Union
-from cookies import *
+
+import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
 from EsproMusic.utils.database import is_on_off
 from EsproMusic.utils.formatters import time_to_seconds
+
+
+
 import os
 import glob
 import random
 import logging
-
-
-from urllib.parse import urlparse, parse_qs
-import httpx
 
 def cookie_txt_file():
     folder_path = f"{os.getcwd()}/cookies"
